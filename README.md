@@ -1,165 +1,103 @@
-<!DOCTYPE html>
-<html lang="">
-<head>
+<!doctype html>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-    <link rel="icon" href="apple-icon.png"/>
-    <meta name="description" content="A website with all the design resources you need for your web designs!">
-    <meta name="keywords" content="HTML,CSS,Javascript,jQuery,Nodejs,Expressjs,Minimal,Simple,FlatDesign,Flat, Design">
-    <meta name="author" content="Moemin Mamdouh">
-    <link rel="stylesheet" href="animate.css">
-    
-    <title>DesignHub | Your up-to-date designers' resources.</title>
-</head>
-<body>
-    
-<div class="landing">
-    <div class="title">
-        <h1>DesignHub</h1>
-        <h1 class="titleP">Created by <span class="author">Moemin Mamdouh</span></h1>
-    </div>
-    
-    <div class="socialImages">
-        <img src="images/dribbble-5-logo-png-transparent.png" class="social">
-        <img src="images/Facebook-icon-1.png" class="social">
-        <img src="images/LinkedIn-Icon-Square.png" class="social">
-        <img src="images/download%20(5).png" class="social">
-    </div>
-    <div class="lefttext animated slideInLeft">
-        <h2>DesignHub</h2>
-        <p>Your up-to-date resource for all your designer needs. From color palettes to MIT-licensed illustrations. </p>
-        <a href="#info" class="buttonH"><div class="button">View resources</div></a>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Jumbotron Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
       </div>
-    <a href="#info"><div class="arrow bounce"><img src="images/Path%201.png" class="arrowImg"></div></a>
-    </div>
-     
-    
-<div class="info" id="info">
-    <div class="resources">
-            <div class="Resource">
-                <a href="https://unsplash.com/"><div class="dot"><img src="images/R1.png" class="r1"></div>
-                <h3>Unsplash</h3></a>
-                <p class="resourceParagraph">Unsplash is a website dedicated to sharing copyright-free photography under the Unsplash license.</p>
-            </div>
-        
-            <div class="Resource">
-                <a href="http://collectui.com/"><div class="dot"><img src="images/R2.png" class="r1"></div>
-                <h3>CollectUI</h3></a>
-                <p class="resourceParagraph">Daily inspiration collected from daily ui archive and beyond. Based on Dribbble shots, hand picked, updating daily.</p>
-            </div>
-        
-            <div class="Resource">
-                <a href="http://www.flatuicolorpicker.com/"><div class="dot"><img src="images/R3.png" class="r1"></div>
-                <h3>FlatUI Color Picker</h3></a>
-                <p class="resourceParagraph">Flatuicolorpicker is a project digging the Flat Color Picker which gives you the perfect colors for flat designs.</p>
-            </div>
-        
-            <div class="Resource">
-                <a href="https://dribbble.com/shots"><div class="dot"><img src="images/R4.png" class="r1"></div>
-                <h3>Dribbble</h3></a>
-                <p class="resourceParagraph">Shots from popular and up and coming designers in the Dribbble community, your best resource to discover and connect with designers worldwide.</p>
-            </div>
-        
-            <div class="Resource">
-                <a href="https://uimovement.com/"><div class="dot"><img src="images/R5.png" class="r1"></div>
-                <h3>UI Movement</h3></a>
-                <p class="resourceParagraph">UI Movement is a community of design enthusiasts who share and discuss the most interesting and unique UI designs.</p>
-            </div>
-            
-            <div class="Resource">
-                <a href="https://undraw.co/"><div class="dot"><img src="images/R6.png" class="r1"></div>
-                <h3>unDraw</h3></a>
-                <p class="resourceParagraph">MIT licensed illustrations for every project you can imagine and create.</p>
-            </div>
-        
-            <div class="Resource">
-                <a href="https://material.io/tools/icons/?style=baseline"><div class="dot"><img src="images/R7.png" class="r1"></div>
-                <h3>Material Icons</h3></a>
-                <p class="resourceParagraph">Material icons are delightful, beautifully crafted symbols for common actions and items. Download on desktop to use them in your digital products for Android, iOS, and web.</p>
-            </div>
-        
-            <div class="Resource">
-                <a href="https://fontpair.co/"><div class="dot"><img src="images/R8.png" class="r1"></div>
-                <h3>Font Pair</h3></a>
-                <p class="resourceParagraph">Font Pair helps designers pair Google Fonts together. Beautiful Google Font combinations and pairs.</p>
-            </div>
-        
-            <div class="Resource">
-                <a href="https://coolors.co/"><div class="dot"><img src="images/R9.png" class="r1"></div>
-                <h3>Coolors.co</h3></a>
-                <p class="resourceParagraph">Generate perfect color combinations for your designs.</p>
-            </div>
-        
-            <div class="Resource">
-                <a href="http://mariodelvalle.github.io/CaptainIconWeb/"><div class="dot"><img src="images/R10.png" class="r1"></div>
-                <h3>Captain Icon</h3></a>
-                <p class="resourceParagraph"> 350 awesome free vector icons to empower your mobile and web designs.</p>
-            </div>
-        
-            <div class="Resource">
-                <a href="https://www.freepik.com/"><div class="dot"><img src="images/R11.png" class="r1"></div>
-                <h3>Freepik</h3></a>
-                <p class="resourceParagraph">More than a million free vectors, PSD, photos and free icons. Exclusive freebies and all graphic resources that you need for your projects.</p>
-            </div>
-        
-            <div class="Resource">
-                <a href="https://fonts.google.com/"><div class="dot"><img src="images/R12.png" class="r1"></div>
-                <h3>Google Fonts</h3></a>
-                <p class="resourceParagraph">Making the web more beautiful, fast, and open through great typography.</p>
-            </div>
-        
-            <div class="Resource">
-                <a href="https://fontawesome.com/"><div class="dot"><img src="images/R13.png" class="r1"></div>
-                <h3>Font Awesome</h3></a>
-                <p class="resourceParagraph">Font Awesome makes it easy to add vector icons and social logos to your website. And version 5 is redesigned and built from the ground up!</p>
-            </div>
-        
-            <div class="Resource">
-                <a href="https://cssreference.io/"><div class="dot"><img src="images/R14.png" class="r1"></div>
-                <h3>CSS Reference</h3></a>
-                <p class="resourceParagraph">Learn by example: cssreference.io is a free visual guide to CSS. It features the most popular properties, and explains them with illustrated and animated examples.</p>
-            </div>
-        
-            <div class="Resource">
-                <a href="https://ionicons.com"><div class="dot"><img src="images/R15.png" class="r1"></div>
-                <h3>Ionicons</h3></a>
-                <p class="resourceParagraph">Premium designed icons for use in web, iOS, Android, and desktop apps. Support for SVG and web font. Completely open source, MIT licensed.</p>
-            </div>
-        
-        </div>    
-</div>
-     
-    
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
+    </nav>
 
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
+    <main role="main">
 
-      // Store hash
-      var hash = this.hash;
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-3">Hello, world!</h1>
+          <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        </div>
+      </div>
 
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
-</script> 
-</body>
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Heading</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Heading</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Heading</h2>
+            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+
+        <hr>
+
+      </div> <!-- /container -->
+
+    </main>
+
+    <footer class="container">
+      <p>&copy; Company 2017-2018</p>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+  </body>
 </html>
